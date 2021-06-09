@@ -1,7 +1,6 @@
 # React Native WhatsApp Component
 React Native component to open WhatsApp app with a preset message to a preset phone number
 
-
 ## Clone
 
 Local clone:
@@ -10,14 +9,16 @@ Local clone:
 git clone https://github.com/ategani/whatsapp-component.git
 ```
 
-## Install all the dependencies
+## Install
+Installing all the dependencies
 
 ```
 cd whatsapp-component
 yarn install
 ```
 
-## Start a local dev server for the app
+## Start
+Starting a local dev server for the app
 
 ```
 expo start
