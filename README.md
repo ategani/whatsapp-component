@@ -49,4 +49,4 @@ const HomeScreen = () => {
 
 ## License
 
-React Native Whatsapp Component is open source software [licensed as MIT](https://github.com/andrelmlins/react-whatsapp/blob/master/LICENSE).
+React Native Whatsapp Component is open source software [licensed as MIT](https://github.com/ategani/whatsapp-component/blob/main/LICENSE).
