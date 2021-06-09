@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Image,
   Linking,
-  SafeAreaView,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -35,22 +34,20 @@ const WhatsApp = () => {
   }
 
   return (
-    <SafeAreaView style={styles.container}>
-      <View>
-        <Text style={styles.text}>
-          Entre em contato também pelo WhatsApp:
+    <View style={styles.container}>
+      <Text style={styles.text}>
+        Entre em contato também pelo WhatsApp:
           </Text>
-        <TouchableOpacity
-          style={styles.button}
-          activeOpacity={0.7}
-          onPress={openWhatsApp}>
-          <Image
-            style={styles.image}
-            source={logo}
-          />
-        </TouchableOpacity>
-      </View>
-    </SafeAreaView>
+      <TouchableOpacity
+        style={styles.button}
+        activeOpacity={0.7}
+        onPress={openWhatsApp}>
+        <Image
+          style={styles.image}
+          source={logo}
+        />
+      </TouchableOpacity>
+    </View>
   );
 };
 
