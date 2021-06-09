@@ -48,6 +48,13 @@ const HomeScreen = () => {
 }
 ```
 
+## Important
+Go to [whatsapp-component/src/components/WhatsApp.js](https://github.com/ategani/whatsapp-component/blob/main/src/components/WhatsApp.js) and set the value of **phoneWithCountryCode** variable with a valid phone number
+```jsx
+let phoneWithCountryCode = ''; //5511912345678
+```
+
+
 ## License
 
 React Native Whatsapp Component is open source software [licensed as MIT](https://github.com/ategani/whatsapp-component/blob/main/LICENSE).
