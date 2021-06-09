@@ -1,21 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
+/*
+"Mistakes are the portals of discovery"
+- James Joyce (1882-1941)
+ */
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+import Routes from './src/routes/routes';
+
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Routes />
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App
